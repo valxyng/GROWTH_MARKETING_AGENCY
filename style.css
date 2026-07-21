@@ -1328,6 +1328,76 @@ grid-template-columns:1fr;
 
 }
 
+.scroll-top{
+
+position:fixed;
+
+right:30px;
+
+bottom:30px;
+
+width:58px;
+
+height:58px;
+
+border:none;
+
+border-radius:50%;
+
+background:#111;
+
+color:#fff;
+
+font-size:22px;
+
+cursor:pointer;
+
+opacity:0;
+
+pointer-events:none;
+
+transform:translateY(20px);
+
+transition:.35s cubic-bezier(.22,1,.36,1);
+
+box-shadow:0 18px 35px rgba(0,0,0,.18);
+
+z-index:999;
+
+}
+
+.scroll-top.show{
+
+opacity:1;
+
+pointer-events:auto;
+
+transform:none;
+
+}
+
+.scroll-top:hover{
+
+transform:translateY(-6px);
+
+}
+
+.card{
+
+background:
+
+radial-gradient(
+
+circle at var(--mouse-x) var(--mouse-y),
+
+rgba(255,255,255,.75),
+
+transparent 240px),
+
+var(--card);
+
+}
+
 .hero,
 
 .service,
