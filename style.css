@@ -1856,3 +1856,14 @@ MAX 768px
 
 
 }
+@media(max-width:768px){
+
+    .cta{
+
+        padding:35px 26px;
+
+        min-height:330px;
+
+    }
+
+}
