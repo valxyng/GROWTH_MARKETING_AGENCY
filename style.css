@@ -1509,3 +1509,350 @@ font-size:14px;
 /*==================================================
 END
 ==================================================*/
+/*==================================================
+MOBILE FIRST POLISH
+MAX 768px
+==================================================*/
+
+@media(max-width:768px){
+
+
+    body{
+
+        background:#f6f6f4;
+
+    }
+
+
+    /* HEADER */
+
+    header{
+
+        width:calc(100% - 28px);
+
+        margin:14px auto;
+
+        padding:14px 16px;
+
+        border-radius:24px;
+
+        gap:15px;
+
+        top:12px;
+
+    }
+
+
+    .logo{
+
+        font-size:22px;
+
+        letter-spacing:.12em;
+
+    }
+
+
+    nav{
+
+        display:none;
+
+    }
+
+
+    .telegram-btn{
+
+        padding:12px 18px;
+
+        font-size:13px;
+
+        margin-left:auto;
+
+    }
+
+
+
+    /* GRID */
+
+    .grid{
+
+        width:calc(100% - 28px);
+
+        margin:20px auto 50px;
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:14px;
+
+    }
+
+
+
+    /* ALL CARDS */
+
+    .card{
+
+        width:100%;
+
+        padding:24px;
+
+        border-radius:26px;
+
+        box-shadow:
+
+        0 8px 25px rgba(0,0,0,.04);
+
+    }
+
+
+    .card:hover{
+
+        transform:none;
+
+    }
+
+
+
+    /* HERO */
+
+    .hero{
+
+        min-height:520px;
+
+        justify-content:flex-start;
+
+        padding:28px 22px;
+
+    }
+
+
+    .hero h1{
+
+        font-size:46px;
+
+        line-height:.98;
+
+        letter-spacing:-.04em;
+
+        margin:35px 0 25px;
+
+    }
+
+
+    .hero p{
+
+        font-size:16px;
+
+        line-height:1.65;
+
+    }
+
+
+
+    .label{
+
+        font-size:11px;
+
+        padding:7px 12px;
+
+    }
+
+
+
+
+    /* SERVICES */
+
+
+    .service{
+
+        min-height:240px;
+
+        padding:24px;
+
+    }
+
+
+    .service span{
+
+        top:22px;
+
+        left:24px;
+
+        font-size:13px;
+
+    }
+
+
+    .service h3{
+
+        font-size:27px;
+
+        margin-bottom:12px;
+
+    }
+
+
+    .service p{
+
+        font-size:15px;
+
+        line-height:1.6;
+
+    }
+
+
+
+    /* STATS */
+
+
+    .stats{
+
+        min-height:220px;
+
+        justify-content:center;
+
+    }
+
+
+    .stats h2{
+
+        font-size:70px;
+
+        margin-bottom:10px;
+
+    }
+
+
+
+    /* IMAGE */
+
+
+    .image{
+
+        min-height:330px;
+
+        order:2;
+
+    }
+
+
+    .image img{
+
+        min-height:330px;
+
+        object-fit:cover;
+
+    }
+
+
+
+    /* ABOUT */
+
+
+    .about{
+
+        min-height:360px;
+
+        justify-content:center;
+
+    }
+
+
+    .about h2{
+
+        font-size:34px;
+
+        margin-bottom:20px;
+
+    }
+
+
+    .about p{
+
+        font-size:16px;
+
+    }
+
+
+
+
+    /* PROCESS */
+
+
+    .process{
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:12px;
+
+        padding:14px;
+
+    }
+
+
+    .process>div{
+
+        padding:24px;
+
+        border-radius:20px;
+
+    }
+
+
+    .process>div{
+
+        font-size:38px;
+
+    }
+
+
+    .process h4{
+
+        margin-top:20px;
+
+    }
+
+
+
+    /* CTA */
+
+
+    .cta{
+
+        min-height:300px;
+
+        padding:30px 24px;
+
+    }
+
+
+    .cta h2{
+
+        font-size:34px;
+
+    }
+
+
+    .cta p{
+
+        font-size:16px;
+
+        margin-bottom:30px;
+
+    }
+
+
+    .cta a{
+
+        width:100%;
+
+        padding:17px;
+
+    }
+
+
+
+}
